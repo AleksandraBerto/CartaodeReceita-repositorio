@@ -1,0 +1,94 @@
+/* 1.RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* É uma propriedade para não deixaer os elementos sairem da caixa */
+
+}
+/*3. Estilos gerais para a página*/
+body{
+    background-color: #f5f5f5;
+    color: #333;
+    
+    display: flex; /* Para posicionar o card no meio da tela, de forma automática - Ativa o flex box  */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura minima, menor que isso ele quebra, vh- unidade de medida relativa,depende do tamanho da tela*/
+    margin: 0; /* Retira a margem de todo o body */
+}
+
+/* 3. Estilos do card de receita*/
+.receita-card{
+    width: 350px; /* Largura fixa do card */
+    background-color: #ffffff;
+    border-radius: 15px;
+
+    /* Sombra em volta do card */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+    /*  */
+    overflow:hidden; /* Para a imagem ou o texte não passar do card */
+}
+
+/*4. Estilo da Imagem */
+.receita-image{
+    /* Ajusta a largura automaticamente para manter a proporção */
+    width: 100%;
+
+    display: block;
+}
+
+/*5. Estilo do conteudo do card */
+.receita-content{
+    padding: 25px; /* Espaço da borda para dentro */
+}
+
+.receita-title{
+    font-size: 1.5rem;
+    color: #4a4a4a;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.receita-description{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    color: #666;
+    margin-bottom: 0;
+
+}
+.receita-button{
+    display:block; /*Ocupa toda a linha*/
+
+    text-align: center;
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background-color: #4caf50;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.receita-card2{
+    width: 400px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgb(0, 0, 0, 0.1); /* Sombra em volta do card */
+    overflow: hidden; /* Para a imagem ou o texte não passar do card */
+}
+
+.receita-section{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.receita-section h3{
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #2e7d32;
+    
+}
