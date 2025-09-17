@@ -17,7 +17,7 @@ O card contém uma breve descrição e um botão que leva para a página complet
 ---
 
 ## 🚀 Acesse o site aqui
-https://aleksandraberto.github.io/segundo-repositorio/
+https://aleksandraberto.github.io/CartaodeReceita-repositorio/index.html
 
 
 
